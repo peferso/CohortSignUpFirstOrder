@@ -1,42 +1,109 @@
-from library_simulate_data import *
-import pandas as pd
-from pandas import DataFrame
-import numpy as np
+\documentclass[12pt,aps,prd,amsmath,amssymb,floatfix,nofootinbib,reprint]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,hyperfootnotes=false]{hyperref}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{graphicx,color,dcolumn,booktabs}
+\usepackage{txfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{multirow}
+\usepackage{bbm}
 
-number_of_IDs = 600
-number_of_Orders = 1200
 
-print('Running program... \n')
+\usepackage{listings}
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-# We generate the table of ID's and sign up time stamps
-pop_ID = populationID(number_of_IDs)# generates a population of nonrepeated IDs
-pop_SgnUp_TS = populationSignUpTimeStamp(pop_ID)# generates a sign up time stamp of format YYYY:MM:DD:hh:mm:ss
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-# We store the table in a dataframe
-list_cols_SignUp = ['user_id', 'signup_timestamp'] # the column names
-table_SignUp = {list_cols_SignUp[0]: pop_ID, list_cols_SignUp[1]: pop_SgnUp_TS}
-dfSignUp = DataFrame(table_SignUp, columns=list_cols_SignUp)
-# let us see a few rows
-print('\nLet us see a few rows of the <<Signup>> table:\n')
-print(dfSignUp.head(10))
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-# Now we create a table with the columns ID's and order time stamps
-#    (*) note that time stamps of each ID have been generated on dates later or = to sign up date
-pop_Order_ID = populationOrderID(number_of_Orders, pop_ID)
-pop_Order_TS = populationOrderTimeStamp(pop_Order_ID, pop_SgnUp_TS, pop_ID)
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
-# We store the table in a dataframe
-list_cols_Order = ['user_id', 'order_timestamp'] # the column names
-table_Order = {list_cols_Order[0]: pop_Order_ID, list_cols_Order[1]: pop_Order_TS}
-dfOrder = DataFrame(table_Order, columns=list_cols_Order)
+\allowdisplaybreaks
 
-# let us see a few rows
-print('\nLet us see a few rows of the <<Orders>> table:\n')
-print(dfOrder.head(10))
+\newcommand*{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}%[1]{\expandafter\@slowromancap\romannumeral #1@}
+
+\title{A Data Science Test}
+\author{Pedro Fern\'andez Soler}
+\begin{document}
+\maketitle
+% 
+\tableofcontents
+%
+\section{Technical question}
+%
+\subsection{Statement of the problem}
+\begin{center}
+      \large
+      \it
+      Build a script (R, Python, SQL...) to create a cohort of Signup to First Order and show the
+      result. The objective of this cohort is to see, out of the users that signed up in Week N, how
+      many did their first order in Week N+1, N+2, N+3... As an input, you have 2 tables : - one with
+      user\_id, signup\_timestamp - and a second one with user\_id, order\_timestamp 
+\end{center}
+
+\subsection{Answer:}
+
+\lstset{language=Python}
+
+I have used Python3.7 to adress the problem, 
+in combination with packages \textit{numpy} and \textit{pandas}. 
+The example presented here assumes the existence of two pandas dataframes:
+\begin{itemize}
+      \item dfSignUp: contains the columns 'user\_id' and 'signup\_timestamp'
+      \item dfOrder: contains the columns 'user\_id' and 'order\_timestamp'
+\end{itemize}
+
+In order to test the script I have generated these two dataframes simulating 
+a number of 600 unique 'user\_id' and 'signup\_timestamp', as well as
+1200 random orders of these users population at random 'order\_timestamp' 
+(of course, the 'order\_timestamp' were generated consistently with the
+'signup\_timestamp' of each user). 
+
+The sign ups where simulated in 
+the period between Jan-May of 2018. The orders in a period of 35 days 
+after the corresponding signup date, with smaller probabilities 
+for the last days (with the purpose of testing if this pattern manifests
+in the cohort table).\\
+
+The resulting cohort table is shown in Table~\ref{table_cohort}.
+The code and auxiliary functions that I have written to generate
+the dataframes can be found in GitHub 
+\begin{center}
+      \url{https://github.com/peferso/CohortSignUpFirstOrder}
+\end{center}
+
+\begin{table}[ht!]
+      \centering
+      \input{../myCohort.tex} 
+      \caption{Cohort to Signup to First Order. SU and FO stand for signup and first order respectively.
+      \label{table_cohort}}
+\end{table}
+
+\newpage
+\begin{center}
+      {\large \bf $\medbullet$\hfill The script \hfill $\medbullet$ \bf}
+\end{center}
+\begin{lstlisting}
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 # script to create the cohort of Signup to First Order
@@ -114,7 +181,7 @@ for week_FO in range(maxFOweek):
 # and then transforming it to percentage dividing by total number
 # of occurrences in each row
 for week_sgnUp in range(1, maxSUweek + 1):
-    for week_FO in range(1, maxFOweek + 1):
+    for week_FO in range(1, maxFOweek + 1): 
         condition = (df['week_signup_timestamp'] == week_sgnUp) & (df['week_order_dif'] == week_FO - 1)
         occ_matrix[week_sgnUp, week_FO] = len(df[condition])
     rowsum = np.sum(occ_matrix[week_sgnUp, 1:], dtype=np.int32)
@@ -139,20 +206,14 @@ cohort[colnames[0]] = pd.to_numeric(cohort[colnames[0]], downcast='integer')
 print(cohort.to_string())
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #
 
-# export to latex
-with open('myCohort.tex', 'w') as op:
-    op.write(cohort.to_latex(bold_rows=True,index_names=True))
+\end{lstlisting}
 
 
-# check sum of numbers is at most as large as the number of ID's
-check = cohort.loc[:, 'number']
-check = check.sum()
-print('\nThis should be <=', number_of_IDs,'\n')
-print(check)
 
-# check sum of percentages
-check = cohort
-check.drop('number', axis=1, inplace=True)
-check = check.sum(axis=1)
-print('\nAll the following entries should be close to 100\n')
-print(check.to_string())
+
+
+~
+\newpage
+\bibliographystyle{JHEP}
+\bibliography{references}
+\end{document}

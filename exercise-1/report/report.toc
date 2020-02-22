@@ -1,0 +1,3 @@
+\contentsline {section}{\numberline {1}Technical question}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Statement of the problem}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Answer:}{1}{subsection.1.2}

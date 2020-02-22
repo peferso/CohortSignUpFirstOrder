@@ -61,10 +61,10 @@ def populationOrderTimeStamp(sampleIDs, sgnUpPopulation, idPopulation):
     for ID in sampleIDs:
         #for each ID in the sample we sum a random number of days equivalent to 1 and 20 weeks
         sudate = dicIDSgUp[ID]
-        pop = range(0:35)
-        wgh = range(0:35:-1)
-        choices(, )
-        newdate = sumdays(sudate[0:10], day)+sudate[10:]
+        pop = np.arange(0, 35, 1).tolist()
+        wgh = np.arange(3500, 0, -100).tolist()
+        day = choices(pop, wgh, k=1)
+        newdate = sumdays(sudate[0:10], day[0])+sudate[10:]
         sampleOrderTimeStamp.append(newdate)
     return sampleOrderTimeStamp
 
