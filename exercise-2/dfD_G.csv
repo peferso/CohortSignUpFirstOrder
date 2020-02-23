@@ -1,0 +1,101 @@
+index,Address,Category,City,Country,Latitude,Longitude,Name
+0,Münsterstraße 169,Gym / Fitness Center,Düsseldorf,Deutschland,51.24643606781204,6.793003281685742,FitX
+0,Niederkasseler Lohweg,Gym / Fitness Center,Düsseldorf,Deutschland,51.243177879805344,6.740248796196075,Fit X
+0,Königsallee 59,Gym / Fitness Center,Düsseldorf,Deutschland,51.22074405771001,6.778538380351917,Holmes Place Health Club
+0,Kölner Landstr. 11-17,Gym / Fitness Center,Düsseldorf,Deutschland,51.196594268213644,6.812165087903851,Holmes Place
+0,Batteriestr. 7,Gym / Fitness Center,Neuss,Deutschland,51.20298602344137,6.692328735862247,McFIT
+0,Oberlöricker Strasse 3,Gym / Fitness Center,Düsseldorf,Deutschland,51.245531375938846,6.735238097026014,Holmes Place
+0,Emmastraße 25,Gym / Fitness Center,Düsseldorf,Deutschland,51.2094528394927,6.798892812994936,CrossFit am Rhein
+0,Erkrather Straße 230,Gym / Fitness Center,Düsseldorf,Deutschland,51.219096268473734,6.814856593588388,FitX
+0,"Derendorfer Allee 6, Im Lighthouse",Gym / Fitness Center,Düsseldorf,Deutschland,51.25362781912996,6.781064752149632,Fitness First
+0,Hafelsstraße 249,Gym / Fitness Center,Krefeld,Deutschland,51.323474,6.607554,FitX Fitnessstudio
+0,Friedrichstr. 129-133,Gym / Fitness Center,Düsseldorf,Deutschland,51.20866489697784,6.776246040166715,Just Fit 12 Premium Fitnessclub Düsseldorf Bilk
+0,,Gym / Fitness Center,,Deutschland,51.21856037837672,6.7823766076596925,John Reed Fitness Music Club
+0,Münsterstraße 398,Gym,Düsseldorf,Deutschland,51.257712814444936,6.8034904823767555,"""Fitklusiv"""
+0,Schmelzer Str. 5,Gym,Willich,Deutschland,51.26689975431878,6.532396895926968,Halle 22
+0,Heinz-Schmöle-Str. 3,Gym / Fitness Center,Düsseldorf,Deutschland,51.217505383916865,6.797307069144804,Maxx Gym
+0,Waldnieler Straße 50,Gym / Fitness Center,Mönchengladbach,Deutschland,51.194602875024,6.421613979235531,Fit X
+0,Korschenbroicherstraße 160-200,Gym / Fitness Center,Mönchengladbach,Deutschland,51.196404427667865,6.459818765360978,McFIT
+0,,Gym / Fitness Center,Düsseldorf,Deutschland,51.23686330251381,6.821558463072653,Fit/One
+0,In der Hött,Gym,,Deutschland,51.19130401219934,6.7714723521159685,CrossFit 0211
+0,Hugo-Wilderer-Weg 21,Gym / Fitness Center,Düsseldorf,Deutschland,51.152950215162164,6.887488485973143,Seestern Fitnessclub Süd
+0,Am Gerstacker 221,Gym / Fitness Center,Mönchengladbach,Deutschland,51.180048730368576,6.447527481129358,Return Sportpark
+0,Aachener Str. 70a,Gym / Fitness Center,Düsseldorf,Deutschland,51.20331655385659,6.772945992037577,Pride Ladies Fitness
+0,Reisholzer Werftstraße 17,Gym / Fitness Center,Düsseldorf,Deutschland,51.168903,6.839421,FitX
+0,Boschstraße 3,Gym / Fitness Center,Ratingen,Deutschland,51.29945826709393,6.818393908361031,McFIT
+0,Schadowstr. 17,Gym / Fitness Center,Düsseldorf,Deutschland,51.225807,6.781117,Fitness First
+0,Rethelstr. 26,Gym,Düsseldorf,Deutschland,51.23063471429326,6.79862985120854,Kieser Training
+0,Am Neuen Angerbach 28,Athletics & Sports,Duisburg,Deutschland,51.366094256668546,6.739223300772429,XXL Sportcenter
+0,Königsallee 63-65,Gym / Fitness Center,Düsseldorf,Deutschland,51.21835259017993,6.7788004875183105,Fitness First
+0,Speditionstrasse 19,Gym / Fitness Center,Düsseldorf,Deutschland,51.21644440185546,6.7528078441085,Rive Spa + Fitness
+0,Diepenstr. 83,Recreation Center,Düsseldorf,Deutschland,51.233672420747126,6.841953138360291,Cosmo Sports
+0,Comeniusstr. 1,Yoga Studio,Oberkassel,Deutschland,51.23468663969138,6.752620994501218,yogakitchen - cook & bake your body
+0,Kleinhülsen  17,Gym / Fitness Center,Hilden,Deutschland,51.169697,6.906474,Sportpark Hilden
+0,Wanheimerstraße 227,Gym / Fitness Center,Duisburg,Deutschland,51.40930595772322,6.752907970569595,McFIT
+0,Schirmerstr. 61,Yoga Studio,Düsseldorf,Deutschland,51.23058031838056,6.794941622351866,Vishnu's Vibes
+0,Bachstr. 145,Pool,Düsseldorf,Deutschland,51.209227851864746,6.775646209716797,Schwimm’ in Bilk
+0,Schiessstrasse 68,Gym / Fitness Center,Düsseldorf,Deutschland,51.239645978264946,6.721471839168915,re.ac.me. physio+therapie
+0,Porschestraße 16,Gym / Fitness Center,Kaarst,Deutschland,51.21640117179983,6.634111037196111,EasyFitness
+0,Friedenstraße 21,Gym Pool,Meerbusch,Deutschland,51.25492019820771,6.688577003460768,Hallenbad Meerbusch
+0,Meerbuscher Straße 57,Gym / Fitness Center,Meerbusch,Deutschland,51.2681103813743,6.625428370197361,Life Fitness
+0,Rheinallee 1,Gym / Fitness Center,Neuss,Deutschland,51.20109347872289,6.724032610034825,Swissôtel Duesseldorf/ Neuss RiverSPA
+0,,Gym / Fitness Center,,Deutschland,51.21401933982833,6.7537019725582335,Radisson Blu Fitness Room
+0,Völklingerstraße 24,Gym / Fitness Center,Düsseldorf,Deutschland,51.2093882,6.7585126,JOHN REED Fitness
+0,,Gym / Fitness Center,Düsseldorf,Deutschland,51.276131,6.768952,Maritim Fitness
+0,"Graf-Adolf-Straße 30-35, Eingang: Berliner Allee 54",Gym / Fitness Center,Düsseldorf,Deutschland,51.21856832808898,6.782460354188515,JOHN REED Fitness
+0,Terminal-Ring 4,Gym / Fitness Center,Düsseldorf,Deutschland,51.278226225145026,6.767985820770264,Sheraton Fitness
+0,Parisstr. 110,Gym / Fitness Center,Neuss,Deutschland,51.16953498114121,6.72144638274338,HealthCity
+0,Mintropstr. 21,Gym / Fitness Center,Düsseldorf,Deutschland,51.218135942621736,6.790113274328704,Hamam Sahara
+0,Marc-Chagall-Str. 2,Gym / Fitness Center,Düsseldorf,Deutschland,51.236365521600966,6.794877648353577,EVO Fitness
+0,Friedrich-Krupp-Str. 10,Gym,Kaarst,Deutschland,51.2160389297257,6.635105982094205,Health City
+0,,Gym / Fitness Center,Düsseldorf,Deutschland,51.21533468053478,6.806500542910967,Vitalis Gesundheitszentrum
+0,Hoffeld Str. 39,Gym / Fitness Center,Düsseldorf,Deutschland,51.22960843999999,6.813233,Sukhothai Gym
+0,Berta-Benz-Str. 2a,Gym,Meerbusch,Deutschland,51.277127,6.643188,Kineto Premium Fitness & Gesundheit Meerbusch
+0,Holzkamp 7,Gym / Fitness Center,Korschenbroich,Deutschland,51.194292285886704,6.5511431539961125,Medi-Gym
+0,Luegallee 52,Gym,Düsseldorf,Deutschland,51.2316000345157,6.755205844211631,Kieser Training
+0,Neumannstr. 2,Gym / Fitness Center,Düsseldorf,Deutschland,51.2337364228805,6.827538347373945,Mensch Sport- und Erlebniswelt
+0,,Gym,Düsseldorf,Deutschland,51.250888713290685,6.770484335791775,Hilton Düsseldorf Healthclub
+0,Bruchfeld 60,Gym / Fitness Center,Krefeld,Deutschland,51.3413404932163,6.626984679365993,Turnhalle Squash Freizeit
+0,,Gym / Fitness Center,Krefeld,Deutschland,51.339050146007644,6.613047996508072,Glockenspitzhalle
+0,Erkrather Straße 343,Gym / Fitness Center,Düsseldorf,Deutschland,51.2144164,6.8217785,McFIT
+0,Pestalozzistraße 3a,Athletics & Sports,Kaarst,Deutschland,51.22388753980874,6.616774811711617,Sportgemeinschaft Kaarst 1912/35 e.V. (SG Kaarst)
+0,Boschstraße 5,Gym / Fitness Center,Ratingen,Deutschland,51.2993733022786,6.820037158582181,FitX
+0,Sternstr. 58,Gym,Düsseldorf,Deutschland,51.23567329999999,6.7832382,Mrs.Sporty
+0,Brehmstr. 3,Gym,Düsseldorf,Deutschland,51.23982388067518,6.802096411216466,Proactive EMS
+0,Gahlingspfad  53,Gym / Fitness Center,Krefeld,Deutschland,51.343005900710416,6.565200692317137,Crossfit Crefeld
+0,Graf-Recke-Str. 170,Gym,Düsseldorf,Deutschland,51.24333163139375,6.812993322645997,Turnhalle - Heinrich-Heine-Gesamtschule
+0,An der Sausweide 6,Gym / Fitness Center,Dormagen,Deutschland,51.12052853897544,6.768501975938581,Meditrain GmbH
+0,Kalkumer Str.  123,Dance Studio,Düsseldorf,Deutschland,51.270009,6.773828,Tanzschule Danceplanet Düsseldorf
+0,Stadionring,Gym,Ratingen,Deutschland,51.29695862857979,6.840665616626923,TV Ratingen
+0,Hüttenstr. 43,Athletics & Sports,Düsseldorf,Deutschland,51.21597,6.784359999999992,Sportzentrum Düsseldorf
+0,Im Witschen 30,Gym / Fitness Center,Krefeld,Deutschland,51.31983803443695,6.592140007959671,Torfabrik
+0,Breitenbachstraße 52,Gym / Fitness Center,Mönchengladbach,Deutschland,51.19666093250227,6.451198915019632,Actic Fitness
+0,Gahlingspfad 14,Gym,Krefeld,Deutschland,51.34215979116128,6.562550539802429,World of Sports
+0,Hochdahler Str. 145,Gym Pool,Erkrath,Deutschland,51.22092231554718,6.932385147796701,Neanderbad
+0,,Gym,Ratingen,Deutschland,51.29479846354457,6.865357570623711,TV Ratingen Sportzentrum Ost
+0,Wankelstr. 13,Massage Studio,Korschenbroich,Deutschland,51.17147,6.58771999999999,PhysioRehaConcept- Praxis für Physiotherapie und Krankengymnastik
+0,Freiheitstraße 50,Gym / Fitness Center,Erkrath,Deutschland,51.223095,6.893144,ESSENSIO Health & Sports Club
+0,Bonner Straße 29,Gym,Düsseldorf,Deutschland,51.174614,6.835699,Fitnessloft
+0,Niederstr. 62 -64,Gym,Krefeld,Deutschland,51.35726,6.64898,SPORTOASE
+0,Schelthofer Str.,Gym Pool,Tönisvorst,Deutschland,51.32213729311955,6.480948413205776,Schwimmbad H2O
+0,Altenbrucher Damm 15,Medical Center,Duisburg,Deutschland,51.375512119768246,6.760647830639463,Gesundheitszentrum am Sittardsberg (GZS)
+0,Auf dem Sand 6,Gym / Fitness Center,Hilden,Deutschland,51.1761219,6.9269001,clever fit Hilden
+0,,Gym,,Deutschland,51.29489457067347,6.865658474621105,Fitnessstudio TV Ratingen
+0,Benrodestr. 126,Gym,Benrath,Deutschland,51.164728423530974,6.857397080634185,fit-4-u
+0,,Gym,,Deutschland,51.3691316276244,6.738389233048967,Sporthalle Süd
+0,Hans-Sachs-Str. 19,Gym,Hilden,Deutschland,51.17375738144056,6.915858850565692,Fitness Gym Hilden
+0,Düsseldorfer Str. 58a,Martial Arts Dojo,Ratingen,Deutschland,51.29426344977975,6.843575835227965,Kampfkunst Akademie Ratingen - Fachschule für Selbstverteidigung und Kampfkunst
+0,Friedensstrasse 145,Gym,Mönchengladbach,Deutschland,51.16744461347531,6.461687088043606,FitGym 24
+0,Heinrich-Hertz-Str. 16,Gym,Erkrath,Deutschland,51.19840558970982,6.916179789380447,Fitness Gym
+0,Bergheimerstrasse 54,Gym,Grevenbroich,Deutschland,51.08782199479121,6.578627903362639,uniquesport
+0,Wilhelm-Schiffer-Str. 41,Gym,Mönchengladbach,Deutschland,51.1649751,6.440221,Return Lady Spa
+0,Krefelderstr. 172,Gym,Viersen,Deutschland,51.260851891443714,6.410473544042317,Fitness Gym
+0,Münsterstr. 13,Water Park,Düsseldorf,Deutschland,51.24103575195045,6.7829565553681075,Münster Therme
+0,Dürerstr. 19,Gym,Duisburg,Deutschland,51.41422669999999,6.666488800000025,pa-training
+0,Hohenzollernstraße 5,Spa,Mönchengladbach,Deutschland,51.20003523604801,6.435027695230916,Return Active Spa
+0,Büdericher Strasse 13,Athletics & Sports,Neuss,Deutschland,51.21718395371407,6.689614206131609,Athletic Department
+0,,College Gym,Düsseldorf,Deutschland,51.21048022571472,6.788509302677635,Fit in Düsseldorf
+0,Bilker Allee 36,Yoga Studio,Düsseldorf,Deutschland,51.2112509,6.7660117000000355,Yoga mit Yasmine / Yoga Teacher Düsseldorf
+0,Schwerinstr. 21,Yoga Studio,Düsseldorf,Deutschland,51.23977989337917,6.7791031491562475,Rundum Yoga-Studio
+0,,Yoga Studio,Düsseldorf,Deutschland,51.21346722275616,6.773725257352331,Rundum Yoga
+0,Niederwallstraße 3,Gym Pool,Neuss,Deutschland,51.201474088927014,6.688625987670044,Stadtbad
