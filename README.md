@@ -80,3 +80,4 @@ The python script  <b> main_cohort_signup.py </b> contains the code to generate 
 
 ## The number of laundry, hairdressing and fitness stores per 100k habitants
 In this simple script I use Foursquare API requests to obtain the number of laundry, hairdressing and fitness stores per 100k habitants in two cities of France and Germany. It consists on two scripts contained in folder <i>exercise-2</i>:  <b> gymsLaundryBeaty_foursquareAPI.py </b> and  <b> tableComparison.py </b>. The output table from the latter script is in latex format.
+The results obtained from the API requests are stored in .csv files, and extreme benefit from the package <b> foursquare_api_tools </b> is warmly acknowledged (see <a href="https://github.com/dacog/foursquare_api_tools">foursquare_api_tools</a>).
