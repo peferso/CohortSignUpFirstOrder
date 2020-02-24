@@ -1,0 +1,11 @@
+# Don't track content of these folders
+report/
+
+# Compiled source #
+###################
+*.tex
+*.log
+*.toc
+*.pdf
+*.o
+*.so
