@@ -51,27 +51,27 @@ The goal is to construct from the former two tables a cohort counting: from the 
 		</tr>
 		<tr>
 			<th> Week 1</th>
-			<th> 58 </th>						
-			<th> 45 </th>			
-			<th> 25 </th>						
-			<th> 7 </th>						
-			<th> ... </th>			
+			<td> 58 </td>						
+			<td> 45 </td>			
+			<td> 25 </td>						
+			<td> 7 </td>						
+			<td> ... </td>			
 		</tr>
 		<tr>
 			<th> Week 2</th>
-			<th> 12 </th>						
-			<th> 34 </th>			
-			<th> 23 </th>						
-			<th> 9 </th>						
-			<th> ... </th>	
+			<td> 12 </td>						
+			<td> 34 </td>			
+			<td> 23 </td>						
+			<td> 9 </td>						
+			<td> ... </td>	
 		</tr>
 		<tr>
 			<th>...</th>
-			<th> ...</th>						
-			<th> ... </th>			
-			<th>... </th>						
-			<th>...</th>						
-			<th>... </th>	
+			<td> ...</td>						
+			<td> ... </td>			
+			<td>... </td>						
+			<td>...</td>						
+			<td>... </td>	
 		</tr>
 	
 </table>		
