@@ -9,5 +9,5 @@ report/
 *.pdf
 *.bib
 *.bst
-*.o
-*.so
+*.csv
+*.xlsx
