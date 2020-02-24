@@ -79,4 +79,4 @@ The goal is to construct from the former two tables a cohort counting: from the 
 The python script  <b> main_cohort_signup.py </b> contains the code to generate the cohort table from two pandas dataframes.
 
 ## The number of laundry, hairdressing and fitness stores per 100k habitants
-In this simple script I use Foursquare API requests to obtain the number of laundry, hairdressing and fitness stores per 100k habitants in two cities of France and Germany. It consists on two scripts contained in folder <i>exercise-2</i>:  <b> gymsLaundryBeaty_foursquareAPI.py.py </b> and  <b> tableComparison.py </b>. The output table from the latter script is in latex format.
+In this simple script I use Foursquare API requests to obtain the number of laundry, hairdressing and fitness stores per 100k habitants in two cities of France and Germany. It consists on two scripts contained in folder <i>exercise-2</i>:  <b> gymsLaundryBeaty_foursquareAPI.py </b> and  <b> tableComparison.py </b>. The output table from the latter script is in latex format.
