@@ -7,5 +7,7 @@ report/
 *.log
 *.toc
 *.pdf
+*.bib
+*.bst
 *.o
 *.so
